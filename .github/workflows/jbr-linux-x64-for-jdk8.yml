@@ -1,4 +1,4 @@
-name: jbr-linux-x64
+name: jbr-linux-x64-for-jdk8
 
 on:
   workflow_dispatch:
