@@ -43,7 +43,7 @@ jobs:
 
     - name: Compile JCEF
       env:
-        JDK_8: /usr/lib/jvm/java-8-openjdk-amd64
+        JDK_11: /usr/lib/jvm/java-8-openjdk-amd64
         ANT_HOME: /usr/share/ant
       run: |
         git clone https://github.com/JetBrains/jcef.git jcef
